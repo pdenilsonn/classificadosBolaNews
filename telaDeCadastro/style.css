@@ -142,3 +142,10 @@ footer {
     margin-left: 0.5rem;
     border-radius: 0.5rem;
 }
+
+footer p {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    font-style: italic;
+    font-size: 0.90rem;
+}
