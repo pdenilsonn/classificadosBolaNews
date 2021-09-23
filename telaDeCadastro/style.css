@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+:target {
+    scroll-margin-top: .8em;
+}
+
+body {
+    background-color: rgb(46, 46, 46);
+    color: white;
+}
+
+.backButton {
+    width: 4rem;
+    height: 4rem;
+    background-color: white;
+    border-radius: 1rem;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+.backButton img {
+    width: 3rem;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.separador {
+    border: 1px solid white;
+    margin: 2rem 2rem;
+}
+.container {
+    margin: 2rem;
+    display: block;
+    text-align: center;
+}
+button {
+    background-color: #3e68ff;
+    padding: 1rem;
+    margin: 2rem;
+    width: 12rem;
+    border: none;
+    font-size: 1.2rem;
+    color: white;
+}
+
+.title {
+   
+   font-size: 2rem;
+   margin-bottom: 1rem;
+
+}
+
+.card .title {
+    font-size: 1.5rem;
+}
+
+.description {
+   font-size: 1.2rem;
+   
+}
+
+.duvidas {
+    display: block;
+    position: relative;
+
+}
+.card {
+    
+    background-color: grey;
+    padding: 2rem;
+    margin-top: 1rem;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+    
+
+
+.falarConosco {
+    text-align: center;
+}
+
+/* info ----- */
+footer {
+    margin-top: 6rem;
+    padding: 2rem;
+    background-color: rgb(0, 0, 0);
+    
+    text-align: center;
+}
+
+.info {
+    margin-top: 2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.info img{
+    width: 8rem;
+}
+
+.info .title {
+    font-size: 1.5rem;
+}
+.info .description {
+    margin-top: 0.75rem;
+    font-size: 1.2rem;
+}
+.info .sobre{
+    text-align: left;
+
+    font-size: 1.2rem;
+}
+
+.info p {
+    line-height: 2rem;
+    letter-spacing: 0.12rem;
+}
+
+.info .marca {
+    text-align: right;
+}
+
+.contato {
+    
+    display: inline-block;
+}
+.contato img {
+    width: 4rem;
+    margin-left: 0.5rem;
+    border-radius: 0.5rem;
+}
