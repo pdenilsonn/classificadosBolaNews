@@ -1,168 +1,157 @@
 * {
-    margin: 0;
-    font-family: sans-serif;
+    padding: 0;
+  margin: 0;
+  font-family: sans-serif;
 }
+
 button {
-    background-color: white;
-    color: #0068ff;
-    padding: 1rem;
-    width: 10rem;
-    font-size: 1.5rem;
-    border: none;
-    position: relative;
-    margin-top: 2rem;
-    margin-right: auto;
-    margin-left: auto;
+  background-color: white;
+  color: #0068ff;
+  padding: 1rem;
+  width: 10rem;
+  font-size: 1.5rem;
+  border: none;
+  position: relative;
+  margin-top: 2rem;
+  margin-right: auto;
+  margin-left: auto;
 }
+
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 body {
-    background-color: #0068ff;
-    color: white;
+  background-color: #0068ff;
+  color: white;
 }
+
 .container {
-    margin: 1.5rem;
-    
-
+  margin: 2rem;
 }
+
 .separador {
-    margin: 6rem 4rem;
-    border: 1px solid white;
+  margin: 6rem 4rem;
+  border: 1px solid white;
 }
-
 
 /* logo -- */
 .logo {
-    margin-top: 4rem;
-    text-align: center;
+  margin-top: 4rem;
+  text-align: center;
 }
 .logo h1 {
- font-weight: 700;
- font-size: 2.5rem;
- margin-bottom: 1rem;
+  font-weight: 700;
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
 }
 
 .logo span {
-    font-weight: 100;
+  font-weight: 100;
 }
 
 .logo label {
-    border: 2px solid white;
-    padding: 0.75rem;
+  border: 2px solid white;
+  padding: 0.75rem;
 }
 
 /* saudação --- */
 .bemVindo {
-    margin-top: 8rem;
-    margin-left: auto;
-    margin-right: auto;
-    font-weight: 200;
-    text-align: center;
-   
+  margin-top: 8rem;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: 200;
+  text-align: center;
 }
 
 .bemVindo p {
-    text-align: left;
-    font-size: 1.5rem;
-    margin-bottom: 2rem;
+  text-align: left;
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
 }
-
-
-
-
 
 /* serviços --- */
 .servicos {
-    padding: 1rem;
-    position: relative;
-    text-align: center;
+  padding: 1rem;
+  position: relative;
+  text-align: center;
 }
 .servicos img {
-    width: 12rem;    
+  width: 12rem;
 }
 .servicos h1 {
-    margin-top: 1rem;
-    font-size: 2rem;
+  margin-top: 1rem;
+  font-size: 2rem;
 }
 
 .blocoServicos {
-    margin-top: 4rem;
-    border: 2px solid white;
-    padding: 2rem;
-    margin-bottom: 5rem;
+  margin-top: 4rem;
+  border: 2px solid white;
+  padding: 2rem;
+  margin-bottom: 5rem;
 }
 
 .blocoServicos .title {
-    font-size: 1.75rem;
+  font-size: 1.75rem;
 }
 
 .blocoServicos .description {
-    margin-top: 1rem;
-    font-size: 1.3rem;
+  margin-top: 1rem;
+  font-size: 1.3rem;
 }
 
 .contato {
-    margin-top: 1rem;
-    display: inline-block;
+  margin-top: 1rem;
+  display: inline-block;
 }
 .contato img {
-    width: 4rem;
-    margin-left: 0.5rem;
-    border-radius: 0.5rem;
+  width: 4rem;
+  margin-left: 0.5rem;
+  border-radius: 0.5rem;
 }
 
 /* info ----- */
 footer {
-    margin-top: 6rem;
-    padding: 2rem;
-    background-color: rgb(44, 44, 44);
-    margin-bottom: 0;
-    text-align: center;
+  background-color: rgb(46, 46, 46);
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+  
+  padding: 10px 5px;
 }
 
 footer .title {
-    font-size: 2rem;
+  font-size: 2rem;
+  
 }
 
 .info {
-    margin-left: 2rem;
-    margin-right: 2rem;
+  margin: 1.2rem;
 }
 
-.info img{
-    width: 12rem;
+.info img {
+  width: 12rem;
 }
-
 
 .info .description {
-    margin-top: 0.75rem;
-    font-size: 1.2rem;
+  margin-top: 0.75rem;
+  font-size: 1.2rem;
 }
-.info .sobre{
-    text-align: left;
+.info .sobre {
+  text-align: left;
 
-    font-size: 1.2rem;
+  font-size: 1.2rem;
 }
 
 .contato {
-    margin-top: 2rem;
+  margin-top: 2rem;
 }
 
 .info p {
-    line-height: 2rem;
-    letter-spacing: 0.12rem;
+  line-height: 2rem;
+  letter-spacing: 0.12rem;
 }
 
 .info .marca {
-    text-align: right;
+  text-align: right;
 }
-
-
-
-
-
-
-
-
